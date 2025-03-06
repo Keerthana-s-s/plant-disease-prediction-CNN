@@ -1,50 +1,66 @@
-**Plant Disease System for Sustainable Agriculture**
+**🌿 Plant Disease Detection System for Sustainable Agriculture**
 
 
-
-**Problem Statement**
-•	Develop a CNN-based model capable of detecting and classifying plant diseases from images of leaves of various crops such as apple, cherry, grape, and corn. 
-•	The model should accurately identify both healthy and diseased leaves while predicting the specific type of disease. 
-•	This system will aid in precision agriculture by enabling early detection and effective disease management.
+**📌 Overview**
+This project implements a Convolutional Neural Network (CNN)-based model to detect and classify plant diseases using leaf images. The system aims to enhance precision agriculture by enabling early detection and effective disease management.
 
 
-
-**Proposed problem solution **
-•	To design and implement a CNN-based model that accurately detects and classifies plant diseases from leaf images, identifying both healthy and diseased conditions. 
-•	The system aims to support precision agriculture by enabling early diagnosis and improving crop management practices.
-
-
-**Project Requirements:**
-1.	Image Dataset: A diverse dataset of plant images, including healthy and diseased samples.
-2.	Machine Learning Model: A convolutional neural network (CNN) or pre-trained model such as Inception V3 or ResNet.
-3.	Programming Language: Python
-4.	Frameworks and Libraries:
-o	TensorFlow / PyTorch
-o	OpenCV for image processing
-o	Scikit-learn for model evaluation
-5.	Hardware Requirements:
-o	GPU-enabled system (optional for faster model training)
-6.	Software Requirements:
-o	Python 3.x
-o	Jupyter Notebook or VS Code
-o	Flask (for deployment if needed)
-Minimum Requirements (Hardware and Software):
-•	Hardware:
-o	Processor: Intel i5 or higher
-o	RAM: 8GB (16GB recommended for large datasets)
-o	Storage: Minimum 100GB (for datasets and models)
-o	GPU: NVIDIA GTX 1050 or higher (optional)
-•	Software:
-o	Operating System: Windows 10, Linux, or macOS
-o	Python 3.8 or higher
-o	TensorFlow 2.x or PyTorch
+**🔍 Problem Statement**
+Detect and classify plant diseases from images of leaves across various crops such as apple, cherry, grape, and corn.
+Differentiate between healthy and diseased leaves while identifying the specific type of disease.
+Aid farmers in early detection and disease control for improved crop yield.
 
 
-**Knowledge of Data Modelling:**
-•	Data Collection: Gathering image datasets from sources such as Kaggle or field data.
-•	Data Preprocessing: Image resizing, augmentation, and normalization.
-•	Model Training: Training CNN or transfer learning models.
-•	Evaluation: Using metrics like accuracy, precision, recall, and F1-score.
-•	Deployment: Exporting models for real-time use via Flask or a web application.
+**💡 Solution Approach**
+A CNN-based deep learning model trained on a labeled dataset of plant leaves (both healthy and diseased).
+The model processes images, classifies plant diseases, and predicts outcomes with high accuracy.
+The project includes a Streamlit web application for real-time image-based disease detection.
 
 
+**🛠️ Tech Stack**
+Programming Language: Python
+Machine Learning Framework: TensorFlow / Keras
+Image Processing: OpenCV
+Web Framework: Streamlit
+Dataset: Kaggle - New Plant Diseases Dataset (Augmented)
+
+
+**📂 Project Structure**
+CNN Model: Trains a deep learning model for disease classification.
+Model Training: Uses TensorFlow/Keras with data augmentation for improved accuracy.
+Evaluation: Includes metrics such as accuracy, precision, and recall.
+Web App (Streamlit): Allows users to upload leaf images and get disease predictions.
+🖥️ Hardware & Software Requirements
+✅ Minimum Requirements
+
+**Hardware:**
+Processor: Intel i5 or higher
+RAM: 8GB (16GB recommended)
+Storage: Minimum 100GB
+GPU: NVIDIA GTX 1050 or higher (recommended for training)
+
+**Software:**
+OS: Windows 10, Linux, or macOS
+Python 3.8+
+TensorFlow 2.x / PyTorch
+OpenCV for image processing
+
+
+**🚀 How to Run**
+
+**Clone the repository:**
+git clone https://github.com/yourusername/plant-disease-prediction-CNN.git
+cd plant-disease-detection
+**Install dependencies:**
+pip install -r requirements.txt
+**Run the Streamlit app:**
+streamlit run app.py
+
+**📊 Model Performance**
+The CNN model achieves high accuracy in disease classification.
+Evaluated using precision, recall, and validation loss metrics.
+
+**🎯 Future Scope**
+Implementing transfer learning with models like InceptionV3 or ResNet.
+Mobile application integration for on-the-go plant disease detection.
+Expanding the dataset for more plant species.
