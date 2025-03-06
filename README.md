@@ -6,6 +6,9 @@
 •	Develop a CNN-based model capable of detecting and classifying plant diseases from images of leaves of various crops such as apple, cherry, grape, and corn. 
 •	The model should accurately identify both healthy and diseased leaves while predicting the specific type of disease. 
 •	This system will aid in precision agriculture by enabling early detection and effective disease management.
+
+
+
 **Proposed problem solution **
 •	To design and implement a CNN-based model that accurately detects and classifies plant diseases from leaf images, identifying both healthy and diseased conditions. 
 •	The system aims to support precision agriculture by enabling early diagnosis and improving crop management practices.
